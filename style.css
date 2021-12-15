@@ -240,6 +240,7 @@ h2 {
     height: 312.5px;
     padding: 15px;  
 }
+}
 @media only screen and (max-width: 800px) {
   .product > img{
     width: 150px;
@@ -279,4 +280,4 @@ h2 {
     opacity: .7;
     font-size: 8px;
   }
-}
+} 
