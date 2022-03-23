@@ -4,6 +4,7 @@ import React from 'react';
 function Home() {
         return(
             <>
+            <body>
                     <div className="discountBanner">
                     Free Shipping on all orders $50+ with code: beautiful
                 </div>
@@ -20,6 +21,7 @@ function Home() {
                         <p>Welcome to my page! My name is Ninoshka. I am the face behind this wonderful boutique. I hope that everyone can enjoy my products that I make with a lot of love and dedication for all my clients. Thank you all for your support. </p>
                     </div>
                     </div>
+                    </body>
             </>
 );     
 }  
