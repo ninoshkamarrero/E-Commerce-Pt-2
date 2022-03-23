@@ -1,5 +1,6 @@
 
 import React from 'react';
+import logo from './FooterImgs/Logo.png';
 
 function Footer(){
     return(
@@ -7,7 +8,7 @@ function Footer(){
             <footer className="footer">
               <p> Copyright &copy; 2021</p>
               <div className="grid-item">
-                <img src="/ecommerce/public/Images/Home_Images/Logo.png" alt="logo" style="width:120px;height:120px;" />
+                <img src={logo} alt="logo" style= {{width: "120px", height: "120px"}}/>
               </div>
               <p>
                 <a href="https://www.facebook.com" className="fa fa-facebook" target="_blank" aria-label="facebook" rel="noopener"></a>

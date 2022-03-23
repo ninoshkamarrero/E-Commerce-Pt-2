@@ -144,7 +144,6 @@ input[type=submit] {
 
 .Hero {
   height: 45%;
-  background-image: url("../public/Images/Product_Images/Hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
