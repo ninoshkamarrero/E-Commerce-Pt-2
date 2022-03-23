@@ -4,6 +4,7 @@ import React from 'react';
 function Footer(){
     return(
       <>
+    <footer>
         <div className="footer">
           <p> Copyright &copy; 2021</p>
           <div className="grid-item">
@@ -16,6 +17,7 @@ function Footer(){
             <a href="https://google.com" className="fa fa-google" target="_blank" aria-label="google" rel="noopener"></a>
           </p>
         </div>
+        </footer>
     </>
     )
 }

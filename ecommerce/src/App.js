@@ -6,10 +6,11 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/HomePage/Home';
 function App() { 
   return (
-    <div className="App">
-      <Home />
-      <Navbar />
-      <Footer/>
+    <div className="App"> 
+  <Home/>
+
+      
+
   
     </div>
   );
