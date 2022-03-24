@@ -8,9 +8,7 @@ function HomePage() {
         return(
             <>
             <body>
-                    <div className="discountBanner">
-                    Free Shipping on all orders $50+ with code: beautiful
-                </div>
+                    
                     <div className="Hero">
                     <img src= {hero} alt="Hero"></img>
                         <div className="HeroText">

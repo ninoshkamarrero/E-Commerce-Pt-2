@@ -16,16 +16,7 @@ import Product12 from './ProductImages/Product12.JPEG';
 function Products(){
     return(
         <>
-            <div class="discountBanner">
-        Free Shipping on all orders $50+ with code: beautiful
-    </div>
-    <nav>
-        <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Products.html">Products</a></li>
-            <li><a href="ContactUs.html">Contact Us</a></li>
-          </ul>
-    </nav>
+
     <div class="Hero"></div>
     <h2>Products</h2>
     <div class="productcontainer">

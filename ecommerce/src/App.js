@@ -10,22 +10,25 @@ import Footer from './Components/Footer/Footer'
 // import ImageSlider from './ImageSlider';
 // import SliderInfo from './SliderInfo';
 
-class App extends Component  {
-    render(){
+function App() {
   return (
-      <BrowserRouter>
-      <Routes>
+    <Router>
+    <div className='App'>
+       
+  
         <Navbar />
         {/* <ImageSlider slides={SliderInfo} /> */}
-        <Route path="/Home" element={<HomePage/>} />
+        <Routes>
+        <Route path="/" element={<HomePage/>} />
         <Route path="/Products" element={<Products/>} />
         <Route path="/ContactUs" element={<ContactUs/>} />
+        </Routes>
         <Footer />
-      </Routes>
-     </BrowserRouter>
+
+      </div>
+    </Router>
 
   );
-}
 
 }
 
