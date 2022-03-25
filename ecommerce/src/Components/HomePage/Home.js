@@ -1,15 +1,15 @@
 import React from 'react';
 import hero from './imgs/Hero.jpg';
 import headshot from './imgs/nino.jpeg';
-
-//import HomeSlider from './HomeSlider';
-//import SliderPics from './SliderPics';
+import HomeSlider from './HomeSlider';
+import SliderPics from './SliderPics';
 function HomePage() {
         return(
             <>
             <body>
                     
                     <div className="Hero">
+                    <HomeSlider slides={SliderPics} />
                     <img src= {hero} alt="Hero"></img>
                         <div className="HeroText">
                         <h1>Welcome To NiMar Boutique</h1>

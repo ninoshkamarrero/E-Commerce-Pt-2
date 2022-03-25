@@ -1,15 +1,15 @@
 const SliderPics = [
     {
-        image: 'E-Commerce/ecommerce/src/Components/Home/IMGslider1.jpeg' 
+        image: './imgs/IMGslider1.jpeg' 
     },
     {
-        image: '/Users/ninoshkamarrero/Desktop/Projects/E-Commerce/ecommerce/src/Components/Home/IMGslider2.jpeg'
+        image: './imgs/IMGslider2.jpeg'
     },
     {
-        image: '/Users/ninoshkamarrero/Desktop/Projects/E-Commerce/ecommerce/src/Components/Home/IMGslider3.jpeg'
+        image: './imgs/IMGslider3.jpeg'
     },
     {
-        image: '/Users/ninoshkamarrero/Desktop/Projects/E-Commerce/ecommerce/src/Components/Home/IMGslider4.jpeg' 
+        image: './imgs/IMGslider4.jpeg' 
     }
    
 ]
