@@ -19,7 +19,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
     return null;
 }
     return (
-        <section className="slider">
+        <section className="sliderArrows">
             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
 
