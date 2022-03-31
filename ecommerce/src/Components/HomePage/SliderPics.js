@@ -1,15 +1,20 @@
+import img1 from './imgs/IMGslider1.jpeg';
+import img2 from './imgs/IMGslider2.jpeg';
+import img3 from './imgs/IMGslider3.jpeg';
+import img4 from './imgs/IMGslider4.jpeg';
+
 const SliderPics = [
     {
-        image: './imgs/IMGslider1.jpeg' 
+        image: img1
     },
     {
-        image: './imgs/IMGslider2.jpeg'
+        image: img2
     },
     {
-        image: './imgs/IMGslider3.jpeg'
+        image: img3
     },
     {
-        image: './imgs/IMGslider4.jpeg' 
+        image: img4
     }
    
 ]

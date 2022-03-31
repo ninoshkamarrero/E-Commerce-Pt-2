@@ -7,8 +7,7 @@ import HomePage from './Components/HomePage/Home';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Footer from './Components/Footer/Footer'
 
-// import ImageSlider from './ImageSlider';
-// import SliderInfo from './SliderInfo';
+
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
        
   
         <Navbar />
-        {/* <ImageSlider slides={SliderInfo} /> */}
         <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/Products" element={<Products/>} />

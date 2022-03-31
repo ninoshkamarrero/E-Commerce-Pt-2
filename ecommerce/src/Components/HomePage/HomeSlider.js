@@ -19,7 +19,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
     return null;
 }
     return (
-        <section className="slider">
+        <section className="sliderArrows">
             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
 
@@ -27,7 +27,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
                return(
                <div className={index === current ? 'slide active' : 'slide'} key={index}> 
                {index === current && (
-                   <img src={slide.image}  className="image"/>
+                   <img src={slide.image} alt ='Slider' className="sliderImages"/>
                )}
                    
                </div> 
