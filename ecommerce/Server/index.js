@@ -9,7 +9,6 @@ const db = mysql.createPool({
     port : 3306,
     database: 'ecommerceDatabase',
   });
-<<<<<<< HEAD
 app.get("/", (req,res) => {
 
 
@@ -22,9 +21,6 @@ app.get("/", (req,res) => {
     });
 });
 
-=======
-app.get("/", (req,res) => {});
->>>>>>> 5d93a7beba161185da26acff59a6be8a4863dcce
 
 app.listen(3002, () => {
     console.log('run dsads');
