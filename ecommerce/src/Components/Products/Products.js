@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import products from '../Products/Products.json';
+//import Axios from "axios";
 import Product1 from './ProductImages/Product1.jpeg';
 import Product2 from './ProductImages/Product2.JPG';
 import Product3 from './ProductImages/Product3.JPG';
@@ -14,6 +16,14 @@ import Product12 from './ProductImages/Product12.JPEG';
 
 
 function Products(){
+
+   
+//     useEffect(() =>{
+//     Axios.get('http://localhost:3002/').then((response) =>{
+//         console.log(response.data);
+//     });
+// },[]);
+
     return(
         <>
 
