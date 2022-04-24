@@ -25,3 +25,7 @@ app.get("/", (req,res) => {
 app.listen(3002, () => {
     console.log('run dsads');
 });
+
+app.listen(process.env.PORT || PORT,() => {
+console.log('Server running on port ${PORT}');
+});
